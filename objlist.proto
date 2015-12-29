@@ -1,0 +1,11 @@
+package tutorial;
+
+message Object {
+  required string name = 1;
+  required int32 id = 2;
+}
+
+message ObjectList {
+  repeated Object object = 1;
+}
+
